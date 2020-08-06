@@ -93,10 +93,60 @@
 .section-two {
   height: 500px;
   border-bottom: 1px solid red;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  padding: 50px;
+  gap: 2em;
+}
+
+.text-sec-2 {
+  margin-top: 3em;
+  color: #bdb2b2;
+  font-size: 25px;
+}
+
+.button-sec-2 {
+  width: 80px;
+  height: 80px;
+  margin-top: 15px;
+  background-color: #808080;
+  font-size: 50px;
 }
 
 /* section three */
 
 .section-three {
   height: 600px;
+  display: grid;
+  grid-template-columns: 50% 30%;
 }
+
+.img-sec-3 {
+  margin-left: 50px;
+  background-color: #b9a9a9;
+}
+
+.article-sec-3 {
+  padding: 20px;
+}
+
+.b-sec-3 {
+  margin-top: 80px;
+}
+
+/* section five */
+
+.section-five {
+  height: 600px;
+  background-color:  rgb(104, 102, 102);
+}
+
+.img-sec-5 {
+  width: 400px;
+  height: 400px;
+  background-image: url(../img/cat-smashing-tv-2.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
