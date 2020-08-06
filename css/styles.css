@@ -5,6 +5,9 @@
 
 /* general class */
 
+.center {
+  margin: 0 auto;
+}
 
 /* header-section */
 
@@ -14,9 +17,153 @@
   border: 1px solid red;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* section-one */
 
 .section-one {
-  height: 800px;
   border: 1px solid green;
+}
+
+.header-section-one {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-top: 20px;
+}
+
+.h1-section-one {
+  width: 416px;
+  height: 120px;
+  margin: 0 40vw;
+}
+
+.section-one-button {
+  width: 230px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+
+.square-icon {
+  width: 52px;
+  height: 52px;
+  border: 1px solid blue;
+}
+
+.text-button {
+  width: 150px;
+  height: 37px;
+  border: 1px solid orange;
+  border-radius: 8px;
+}
+
+.text-button p {
+  padding-top: 10px; 
+  font-size: 17px;
+}
+
+.content-section-one {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 500px 500px;
+  background-color: #999;
+}
+
+.content-section {
+  border: 5px solid white;
+}
+
+.bio {
+  padding: 80px;
+}
+
+.bio-img {
+  display:flex;
+}
+
+.bio-img h3 {
+  margin-top: 30px;
+}
+
+.img-section-one {
+  width: 81px;
+  height: 81px;
+  border: 5px solid gray;
+  border-radius: 10px;
+}
+
+.bio-text {
+  font-size: 50px;
+  color: rgb(41, 40, 40);
+  margin-top: 15px;
 }
