@@ -12,125 +12,43 @@
 /* header-section */
 
 .header-section {
+  padding: 16px 40px;
+  height: 103px;
+  align-items: center;
+}
+
+.headerlink {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 5px;
+  margin-left: auto;
+
+}
+
+.gray-color-1 {
+  background-color: rgb(65, 61, 61);
+}
   
-  height: 100px;
-  border: 1px solid red;
+.gray-color-2 {
+  background-color: rgb(122, 121, 121);
+}
+
+.gray-color-3 {
+  background-color: rgb(85, 79, 79);
+}
+
+  .black-color {
+    color: black;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.flex {
+  display: flex;
+}
 
 
 
 /* section-one */
-
-.section-one {
-  border: 1px solid green;
-}
-
-.header-section-one {
-  display: grid;
-  grid-template-columns: 75% 25%;
-  margin-top: 20px;
-}
-
-.h1-section-one {
-  width: 416px;
-  height: 120px;
-  margin: 0 40vw;
-}
-
-.section-one-button {
-  width: 230px;
-  height: 62px;
-  display: flex;
-  align-items: center;
-}
-
-.square-icon {
-  width: 52px;
-  height: 52px;
-  border: 1px solid blue;
-}
-
-.text-button {
-  width: 150px;
-  height: 37px;
-  border: 1px solid orange;
-  border-radius: 8px;
-}
-
-.text-button p {
-  padding-top: 10px; 
-  font-size: 17px;
-}
 
 .content-section-one {
   display: grid;
@@ -166,4 +84,19 @@
   font-size: 50px;
   color: rgb(41, 40, 40);
   margin-top: 15px;
+  height: 800px;
+
+}
+
+/* section two */
+
+.section-two {
+  height: 500px;
+  border-bottom: 1px solid red;
+}
+
+/* section three */
+
+.section-three {
+  height: 600px;
 }
