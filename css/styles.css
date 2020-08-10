@@ -342,4 +342,11 @@ hr {
   margin-left: auto;
   padding-top: 50px;
   text-align: center;
+  
+}
+
+.an {
+  text-decoration: none;
+  color: rgb(51, 50, 50);
+  margin:10px;
 }
