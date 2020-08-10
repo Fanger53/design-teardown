@@ -39,6 +39,10 @@ body {
   flex-wrap: wrap;
 }
 
+.center {
+  margin: 0 auto; 
+}
+
 /* main section */
 
 .main-section {
@@ -61,10 +65,27 @@ body {
 
 /* section one */
 
+.box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid green;
+}
+
+.section-one {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: hidden;
+}
+
 .art-1 {
-  width: 49.7%;
   height: 400px;
   border: 2px solid white;
+}
+
+.img-bio {
+  width: 85px;
+  height: 85px;
+  float: left;
 }
 
 /* section two */
@@ -312,6 +333,16 @@ hr {
 /* footer-section */
 
 .footer-div {
-  width: auto;
+  width: 95vw;
   height: 400px;
+  
 }
+
+.links {
+  width: 40vw;
+  margin-left: auto;
+  padding-top: 30px;
+}
+
+
+
