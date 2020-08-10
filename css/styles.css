@@ -338,8 +338,7 @@ hr {
 }
 
 .links {
-  width: 60vw;
-  margin-left: auto;
+  width: 70vw;
   padding-top: 50px;
   text-align: center;
 }
@@ -348,4 +347,15 @@ hr {
   text-decoration: none;
   color: rgb(51, 50, 50);
   margin: 10px;
+}
+
+.links-b {
+  width: 40vw;
+  margin-top: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.fp {
+  text-align: center;
 }
