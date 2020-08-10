@@ -4,6 +4,7 @@
 }
 
 body {
+  overflow-x: hidden;
   width: 100%;
 }
 
@@ -68,18 +69,16 @@ body {
 .box {
   width: 200px;
   height: 100px;
-  border: 1px solid green;
 }
 
 .section-one {
   display: grid;
   grid-template-columns: 50% 50%;
-  overflow: hidden;
 }
 
 .art-1 {
   height: 400px;
-  border: 2px solid white;
+  padding: 20px;
 }
 
 .img-bio {
@@ -335,6 +334,7 @@ hr {
 .footer-div {
   width: 95vw;
   height: 400px;
+  padding: 30px;
 }
 
 .links {
