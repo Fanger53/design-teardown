@@ -3,7 +3,7 @@ This project consists of building a heatmap of the Smashing magazine website, fo
 
 # Original Page
 <p align="center">
-  <img src="img/screenshot.png" width="850" title="screenshot">
+  <img src="img/screenshop.png" width="850" title="screenshot">
 </p>
 
 
