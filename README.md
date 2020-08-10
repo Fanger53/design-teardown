@@ -1,10 +1,13 @@
 # design-teardown
-This project consists of building a heatmap of the Smashing magazine website, for to understand the UX design 
+This project consists of building a heatmap of the Smashing magazine website, for to understand the UX design
+
+# Original Page
+<p align="center">
+  <img src="img/screenshot.png" width="850" title="screenshot">
+</p>
 
 
-
-
-Built With : Html,CSS and github technologies used:flex-box and grid of CSS, Using StyleLinters. 
+Built With : Html,CSS and github technologies used:flex-box and grid of CSS, Using StyleLinters.
 
 Live Demo Link:https://rawcdn.githack.com/Fanger53/design-teardown/25fdf1bccda29d75853e9fd849c8cfa9f81042ad/index.html
 
@@ -23,7 +26,7 @@ Github: https://github.com/ositaadimma
 
 Twitter:
 
-Linkedin: 
+Linkedin:
 
 👤 Author2
 
