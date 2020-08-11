@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.color-1 {
+  background-color: rgb(89, 89, 89);
+}
+
+.color-2 {
+  background-color: rgb(128, 128, 128);
+}
+
+.color-3 {
+  background-color: rgb(191, 191, 191);
+}
+
+.color-4 {
+  background-color: rgb(153, 86, 86);
+}
+
+.color-5 {
+  background-color: rgb(90, 38, 38);
+}
+
+.color-6 {
+  background-color: rgb(68, 45, 45);
+}
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+/* main section */
+
+.main-section {
+  width: 100%;
+}
+
+/* header section */
+
+.header-section {
+  justify-content: space-around;
+  width: 100%;
+  height: 103px;
+}
+
+.headerlink {
+  font-size: 26px;
+  font-weight: 700;
+  padding: 3px;
+}
+
+/* section one */
+
+.box {
+  width: 200px;
+  height: 100px;
+}
+
+.section-one {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.art-1 {
+  height: 400px;
+  padding: 20px;
+}
+
+.img-bio {
+  width: 85px;
+  height: 85px;
+  float: left;
+}
+
+/* section two */
+
+.s2 {
+  width: 30%;
+  height: 400px;
+  padding-left: 30px;
+  border: 5px;
+  margin-bottom: 40px;
+}
+
+.sh1 {
+  width: 80%;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.sh3 {
+  width: 30%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.sp {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.sbtn {
+  width: 15%;
+  height: 70px;
+}
+
+/* section three */
+
+.s3-1 {
+  width: 30%;
+  height: 500px;
+  padding-right: 15px;
+  padding-left: 20px;
+  flex-grow: 2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.s3-2 {
+  width: 31.5%;
+  height: 500px;
+  padding-right: 10px;
+  border: 5px;
+}
+
+.s3p {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 20px;
+}
+
+.h1-width {
+  width: 20%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.h3-width {
+  width: 5%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.s3p-width {
+  width: 50%;
+  height: 50px;
+}
+
+.s3btn {
+  width: 3%;
+  height: 30px;
+}
+
+/* section four */
+
+.sec-four {
+  margin-top: 30px;
+}
+
+/* section five */
+
+.sec-five {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.s5 {
+  width: 90%;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 11px;
+}
+
+.hr1 {
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 20%;
+  height: 10px;
+}
+
+/* section six */
+
+.sec-six {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.s6 {
+  width: 100%;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.s62 {
+  width: auto;
+  height: 200px;
+  margin-left: 40px;
+}
+
+.s6btn {
+  width: 7%;
+  height: 60px;
+}
+
+.s6h1 {
+  width: 40%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.s6h3 {
+  width: 10%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.s6p {
+  width: 70%;
+  height: 150px;
+}
+
+.s6d {
+  position: relative;
+  margin-left: 120px;
+  margin-top: -80px;
+}
+
+/* section seven */
+
+.sec-seven {
+  width: auto;
+  margin-top: 120px;
+}
+
+.s72 {
+  width: 46%;
+  height: 400px;
+  margin-left: 40px;
+}
+
+.s7d {
+  position: relative;
+  margin-left: 120px;
+  margin-top: -60px;
+}
+
+.s7h3 {
+  width: 20%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.s7h1 {
+  width: 60%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.s7p {
+  width: 100%;
+  height: 250px;
+}
+
+/* section-eight */
+
+.section-eight {
+  padding-top: 20px;
+  height: 400px;
+}
+
+.s82 {
+  width: auto;
+  height: 200px;
+  margin-left: 40px;
+}
+
+.s8p {
+  width: 70%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+/* section-nine */
+
+.grid-div {
+  display: grid;
+  grid: 400px / auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.s9 {
+  width: 650px;
+  height: 350px;
+}
+
+.s9h3 {
+  width: 40%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+/* footer-section */
+
+.footer-div {
+  width: 95vw;
+  height: 400px;
+  padding: 30px;
+}
+
+.links {
+  width: 70vw;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.an {
+  text-decoration: none;
+  color: rgb(51, 50, 50);
+  margin: 10px;
+}
+
+.links-b {
+  width: 40vw;
+  margin-top: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.fp {
+  text-align: center;
+}
