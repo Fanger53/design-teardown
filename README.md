@@ -9,7 +9,7 @@ This project consists of building a heatmap of the Smashing magazine website, fo
 
 Built With : Html,CSS and github technologies used:flex-box and grid of CSS, Using StyleLinters.
 
-Live Demo Link:https://rawcdn.githack.com/Fanger53/design-teardown/376eedf998a504b2cee1749d6035c35522a489ac/index.html
+Live Demo Link:https://raw.githack.com/Fanger53/design-teardown/features/index.html
 
 
 Getting Started
